@@ -26,8 +26,25 @@ nav .navbar {
 
 main img{
     max-width: 100%;
+    
+}
+
+main h1, h2{
+    color: white;
+    background-color: #779882;
+    display: flex;
+    justify-content: center;
+    
+    
 }
 
 footer{
     background-color: #425348;
+    padding: 30px 0px 100px 0px;
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 15em;
+    font-size: 30px;
 }
