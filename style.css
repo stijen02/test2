@@ -4,19 +4,30 @@
 }
 
 .topbanner{
-    padding: 0px;
     display: flex;
     width: 100%;
-    justify-content: flex-end;
+    justify-content: flex-end ;
     text-align: center;
     background-color: #F3F4EF;
-    
+    height: 40px;
+    color: #779882;
+  
 }
 
-nav{
+nav .navbar {
     list-style: none;
-    display: grid;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
     text-align: center;
-    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    font-size: 60px;   
+    background-color: #779882; 
+}
+
+main img{
+    max-width: 100%;
+}
+
+footer{
+    background-color: #425348;
 }
